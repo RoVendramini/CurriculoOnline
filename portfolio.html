@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+         * {
+            margin: auto;
+            text-decoration: none;
+            font-family: Comic Sans MS, Comic Sans, cursive;
+        }
+        header {
+            background-color: #07585b;
+
+        }
+        /*Estilização do menu de navegação*/
+        nav {
+            width: 50%;
+            height: 100px;
+        }
+
+        ul {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-top: 25px;
+            background-color: #e2e2e2;
+            padding: 5px;
+            list-style: none;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+            
+        }
+
+        li:hover {
+            background-color: #8fa7a9;
+        }
+
+        a {
+            color: black;
+        }
+
+        body {
+            background-color: #bac2c0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        /* Customizacão da sessão do texto*/
+        section {
+            margin-top: 50px;
+            padding: 10px;
+            width: 50%;
+            text-align: center;
+            font-size: large;
+            border-radius: 5px;
+            background-color: #e2e2e2;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+        }
+        /* Para destacar o link externo do resto do texto*/
+        .link {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--Criação de um menu com links externos-->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Sobre Mim</a></li>
+                <li><a href="./formacao.html">Formação</a></li>
+                <li><a href="./portfolio.html">Portfólio</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Portfólio</h1>
+        <!--Texto dividido em sessôes-->
+    <section>
+        <p>
+            Esta página ainda está em desenvolvimento, há apenas um projeto pronto por enquanto,
+            volte mais tarde que terá outros projetos para você conferir.
+        </p>
+    </section>
+    <section>
+        <p>
+            Este projeto foi desenvolvido para fins de estudo na intenção de praticar HTML e CSS,
+            utilizando como tema algo que gosto muito. Para conferir, clique no link abaixo:
+        </p>
+        <!--Link que leva a outro site-->
+        <p>
+            <a class="link" href="https://rovendramini.github.io/ProjetoJujutsu/" target="_blank">rovendramini.github.io/ProjetoJujutsu/</a>
+        </p>
+    </section>
+</body>
+</html>

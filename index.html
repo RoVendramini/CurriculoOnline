@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <style>
+        /*Para formatar toda a página*/
+        * {
+            margin: auto;
+            text-decoration: none;
+            font-family: Comic Sans MS, Comic Sans, cursive;
+        }
+        header {
+            background-color: #07585b;
+
+        }
+        /*Estilização do menu de navegação*/
+        nav {
+            width: 50%;
+            height: 100px;
+        }
+
+        ul {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-top: 25px;
+            background-color: #e2e2e2;
+            padding: 5px;
+            list-style: none;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+            
+        }
+
+        li:hover {
+            background-color: #8fa7a9;
+        }
+
+        a {
+            color: black;
+        }
+
+        body {
+            background-color: #bac2c0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        div {
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+        /*Customização do avatar*/
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid black;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+        }
+        /* Customizacão da sessão do texto*/
+        section {
+            margin-top: 40px;
+            padding: 10px;
+            width: 80%;
+            text-align: center;
+            font-size: large;
+            border-radius: 5px;
+            background-color: #e2e2e2;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--Criação de um menu com links externos-->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Sobre Mim</a></li>
+                <li><a href="./formacao.html">Formação</a></li>
+                <li><a href="./portfolio.html">Portfólio</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Rodrigo do Prado Vendramini</h1>
+    <!--Div criada para facilitar a manipilação da imagem para o avatar-->
+    <div>
+        <img src="./img/perfil.jpg"/>
+    </div>
+    <!--Texto com quebras de linha-->
+    <section>
+        <p>
+            Olá, fiz esse site para servir como um currículo online, mas também para prática de estudos.
+            Tenho 26 anos, moro com minha mulher e minha filha de 1 ano. Geralmente uso o período da manhã
+            para estudar, pois trabalho a noite. Escolhi esse curso porque estou buscando uma nova oportunidade
+            e outras experiências, gostaria muito de ingressar na área da tecnologia.
+        </p>
+        <br>
+        <p>
+            Sobre meus gostos, costumo ser mais caseiro até por não ter muito tempo por conta do serviço,
+            no meu tempo livre gosto de jogar video-game com os amigos, ver tv ou brincar com minha filha,
+            futebol também é uma das minhas paixões, tanto em jogar como assistir.
+        </p>
+        <br>
+        <p>    
+            Costumo ser uma pessoa mais tímida e fechada de começo, mas é só até conhecer melhor e ter intimidade.
+            Se fosse citar um ponto forte meu, acredito que seria um grande senso de responsabilidade e principalmente
+            comrpomisso com horários. Um ponto fraco seria falta de confiança em mim mesmo e sempre me questionar se
+            realmente sou capaz de realizar determinada tarefa, seja no trabalho ou na faculdade, mas não deixo de tentar fazer.
+        </p>
+        <br>
+        <p>    
+            Para você que leu até aqui, espero que tenha sido o suficiente para saber um pouco sobre quem sou.
+            Obrigado pela atenção!
+        </p>
+    </section>
+</body>
+</html>

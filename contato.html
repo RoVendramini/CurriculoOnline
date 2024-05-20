@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        /*Para formatar toda a página*/
+        * {
+            margin: auto;
+            text-decoration: none;
+            font-family: Comic Sans MS, Comic Sans, cursive;
+        }
+        header {
+            background-color: #07585b;
+
+        }
+        /*Estilização do menu de navegação*/
+        nav {
+            width: 50%;
+            height: 100px;
+        }
+
+        ul {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-top: 25px;
+            background-color: #e2e2e2;
+            padding: 5px;
+            list-style: none;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+            
+        }
+
+        li:hover {
+            background-color: #8fa7a9;
+        }
+
+        a {
+            color: black;
+        }
+
+        body {
+            background-color: #bac2c0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        /*Criação da caixa do formulário de contato*/
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 10px;
+            width: 20%;
+            font-size: large;
+            border-radius: 5px;
+            background-color: #e2e2e2;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+        }
+        button {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+
+        .img {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img a {
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--Criação de um menu com links externos-->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Sobre Mim</a></li>
+                <li><a href="./formacao.html">Formação</a></li>
+                <li><a href="./portfolio.html">Portfólio</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Entre em Contato</h1>
+    <div class="container">
+        <!--Formulário da página-->
+        <form method="post">
+        
+            <label for="nome"><strong>Nome:</strong></label>
+            <input style="display: block" type="text" name="nome">
+            <br>
+            <label for="email"><strong>Email:</strong></label>
+            <input style="display: block" type="email" name="email">
+            <br>
+            <label for="msg"><strong>Deixe um Comentário:</strong></label>
+            <textarea style="display: block" name="msg" placeholder="Digite sua mensagem..." rows="10"></textarea>
+            <br>
+            <button type="submit" name="button"><strong>Enviar</strong></button> 
+        </form>
+        <!--Links externos viculados às imagens-->
+        <div class="img">
+            <a href="https://github.com/RoVendramini" target="_blank">
+                <img src="./img/github.png">
+                <p>Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/rodrigo-vendramini-9b3910117/" target="_blank">
+                <img src="./img/linkedin.png">
+                <p>Linkedin</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
